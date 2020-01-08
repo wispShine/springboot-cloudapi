@@ -23,6 +23,8 @@
 		<qcloud.cos.version>5.2.4</qcloud.cos.version>
 		<fastjson.version>1.2.58</fastjson.version>
 		<mysql.version>5.1.38</mysql.version>
+		<swagger.version>2.7.0</swagger.version>
+		<guava.version>18.0</guava.version>
 	</properties>
 
 	<dependencies>
@@ -85,6 +87,24 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>${fastjson.version}</version>
+		</dependency>
+		<!--swagger2.0-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${swagger.version}</version>
+		</dependency>
+		<!--swagger-ui-->
+		<dependency>
+			<groupId>com.github.xiaoymin</groupId>
+			<artifactId>swagger-bootstrap-ui</artifactId>
+			<version>1.9.0</version>
+		</dependency>
+		<!--guava-->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
 		</dependency>
 
 	</dependencies>

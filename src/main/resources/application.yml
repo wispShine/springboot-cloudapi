@@ -5,6 +5,8 @@ server:
     max-threads: 1000
     min-spare-threads: 30
   port: 8100
+  #配置随机端口(微服务都是使用随机端口，因为服务太多没必要去记)
+  #port: ${random.int[1024,9999]}
   connection-timeout: 5000ms
   servlet:
 #    context-path: /goldenhome-bootapi
@@ -45,5 +47,14 @@ swagger:
   production: false
   basic:
     enable: true
-    username: jpcg
-    password: goldenhome
+    username: root
+    password: root
+
+
+
+#配置log日志存储位置
+#logging:
+#  path: output/logs
+#实际开发中会将logs日志放在自定义的文件夹下，如下
+#logging:
+   #file: /user/logs/springboot.log

@@ -32,7 +32,6 @@ public class TeacherController {
     @PostMapping
     @RequestMapping("/insert")
     public R add(@RequestBody String data){
-        System.out.println("sss");
         //json字符串转list
         JSONObject jsonObject = JSONObject.parseObject(data);
         JSONArray teachers = jsonObject.getJSONArray("teachers");
