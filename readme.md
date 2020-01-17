@@ -38,9 +38,10 @@ public class SyncConfig {
     }
 }
 ```
+
 # 步骤2：为@Async指定线程池
 ```
-@Async("scorePoolTaskExecutor")
+    @Async("scorePoolTaskExecutor")
     public void addScore2(){
         //TODO 模拟睡眠5秒，用于赠送积分处理
         try {

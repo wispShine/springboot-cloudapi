@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test2?characterEncoding=utf8&useSSL=true
+    username: root
+    #如果密码是纯数字需要用引号括起来否则会报错
+    password: '123456'

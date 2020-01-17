@@ -25,6 +25,10 @@
 		<mysql.version>5.1.38</mysql.version>
 		<swagger.version>2.7.0</swagger.version>
 		<guava.version>18.0</guava.version>
+		<commons.lang.version>2.6</commons.lang.version>
+		<aliyun.sdk.core.version>4.1.0</aliyun.sdk.core.version>
+		<aliyun.sdk.dysmsapi.version>1.1.0</aliyun.sdk.dysmsapi.version>
+		<commons.codec.version>1.7</commons.codec.version>
 	</properties>
 
 	<dependencies>
@@ -106,6 +110,32 @@
 			<artifactId>guava</artifactId>
 			<version>${guava.version}</version>
 		</dependency>
+		<!--commons-lang-->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${commons.lang.version}</version>
+		</dependency>
+		<!-- 阿里云短信SDK -->
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-core</artifactId>
+			<version>${aliyun.sdk.core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+			<version>${aliyun.sdk.dysmsapi.version}</version>
+		</dependency>
+		<!--<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>${commons.codec.version}</version>
+		</dependency>-->
 
 	</dependencies>
 
