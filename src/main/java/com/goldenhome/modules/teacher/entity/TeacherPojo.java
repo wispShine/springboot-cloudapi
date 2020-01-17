@@ -20,7 +20,7 @@ public class TeacherPojo{
 
     //隐藏属性名称  hidden = true
     @ApiModelProperty(value = "教师年龄",required=true)
-    private String Age;
+    private String age;
 
     @ApiModelProperty(value = "教师教龄",required=true)
     private String teacherD;

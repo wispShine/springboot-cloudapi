@@ -35,8 +35,7 @@ public class TeacherController {
         System.out.println("222222"+data);
         String json = JSONObject.toJSONString(data);
         System.out.println("11111"+json);
-        return null;
-        //return teacherService.addTeacher(data);
+        return teacherService.addTeacher(data);
     }
 
     @PutMapping("/teacher/{tId}/{tName}")
