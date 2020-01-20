@@ -11,6 +11,6 @@ import java.util.List;
 @Data
 public class TeachersPojo {
 
-    @ApiModelProperty(value = "教师信息",name = "teacherPojos",example = "老师们",required=true)
+    @ApiModelProperty(value = "教师信息",required=true)
     private List<TeacherPojo> teacherPojos;
 }
