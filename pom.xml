@@ -22,7 +22,7 @@
 		<mybatisplus.version>2.2.0</mybatisplus.version>
 		<qcloud.cos.version>5.2.4</qcloud.cos.version>
 		<fastjson.version>1.2.58</fastjson.version>
-		<mysql.version>5.1.38</mysql.version>
+		<mysql.version>8.0.28</mysql.version>
 		<swagger.version>2.7.0</swagger.version>
 		<guava.version>18.0</guava.version>
 		<commons.lang.version>2.6</commons.lang.version>
